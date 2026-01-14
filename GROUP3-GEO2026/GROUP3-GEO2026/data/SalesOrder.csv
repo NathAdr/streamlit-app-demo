@@ -1,0 +1,7 @@
+Order_ID,Date,Customer,Item,Qty,Price,Total,Status
+SO-001,2026-01-13,Nat,Seragam SD,11,13000.0,143000.0,Delivered
+SO-002,2026-01-13,Mario,Seragam SMP,5,5000.0,25000.0,Delivered
+SO-003,2026-01-13,don,a,1,3000.0,3000.0,Delivered
+SO-004,2026-01-13,aa,asdasd,1,5000.0,5000.0,Delivered
+SO-005,2026-01-13,aca,hhhh,1,1000.0,1000.0,Delivered
+SO-006,2026-01-13,Kei,baju,1,1000.0,1000.0,Delivered

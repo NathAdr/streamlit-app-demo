@@ -1,0 +1,7 @@
+DO_ID,Order_ID,Date,Customer,Items_Summary,Status
+DO-001,SO-001,2026-01-13,Nat,Seragam SD (11),Invoiced
+DO-002,SO-002,2026-01-13,Mario,Seragam SMP (5),Invoiced
+DO-003,SO-003,2026-01-13,don,a (1),Invoiced
+DO-004,SO-004,2026-01-13,aa,asdasd (1),Invoiced
+DO-005,SO-005,2026-01-13,aca,hhhh (1),Invoiced
+DO-006,SO-006,2026-01-13,Kei,baju (1),Invoiced

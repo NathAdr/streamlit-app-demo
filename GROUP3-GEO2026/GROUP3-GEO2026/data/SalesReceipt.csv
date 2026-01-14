@@ -1,0 +1,9 @@
+Receipt_ID,Invoice_ID,Date,Customer,Payment_Method,Amount_Paid,Notes
+RCP-001,INV-001,2026-01-13,Nat,Transfer Bank,6000.0,Sebagian
+RCP-002,INV-002,2026-01-13,Mario,Transfer Bank,25000.0,Lunas
+RCP-003,INV-003,2026-01-13,don,Transfer Bank,1000.0,Sebagian
+RCP-004,INV-003,2026-01-13,don,Transfer Bank,2000.0,Lunas
+RCP-005,INV-004,2026-01-13,aa,Transfer Bank,3000.0,Sebagian
+RCP-006,INV-004,2026-01-13,aa,Transfer Bank,2000.0,Lunas
+RCP-007,INV-006,2026-01-13,Kei,Transfer Bank,1000.0,Lunas
+RCP-008,INV-005,2026-01-13,aca,Transfer Bank,1000.0,Lunas
