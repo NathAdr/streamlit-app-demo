@@ -5,5 +5,5 @@ scikit-learn
 openpyxl
 matplotlib
 xgboost
-streamlit-calendar
+
 
