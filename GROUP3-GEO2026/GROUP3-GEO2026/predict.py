@@ -137,18 +137,9 @@ with tabs[1]:
         y_test_actual = np.expm1(y_test_log)
         dates_test = qty_with_lags.loc[X_test.index, 'TANGGAL PEMESANAN']
 
-        fig2, ax2 = plt.subplots(figsize=(12, 6))
-        ax2.plot(dates_test, y_test_actual, label="Actual", color='blue')
-        ax2.plot(dates_test, y_pred, label="Predicted", color='orange', linestyle='--')
-        ax2.set_title('Validasi: Actual vs Predicted (Test Set)')
-        ax2.legend()
-        ax2.grid(True)
-        ax2.xaxis.set_major_locator(mdates.AutoDateLocator())
-        ax2.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m-%d"))
-        plt.xticks(rotation=45)
-        st.pyplot(fig2)
+       
 
-        st.subheader(f"3. Forecasting {forecast_quarters} Kuartal ke Depan")
+        st.subheader(f"Forecasting {forecast_quarters} Kuartal ke Depan")
 
         all_predictions_log = model_xgb.predict(X)
         all_predictions = np.expm1(all_predictions_log)
