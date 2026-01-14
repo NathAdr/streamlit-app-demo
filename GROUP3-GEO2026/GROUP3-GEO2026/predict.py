@@ -67,7 +67,7 @@ with tabs[1]:
 
     def run_forecasting(df, forecast_quarters):
         st.write("---")
-        st.subheader("1. Preprocessing Data (Quarterly Aggregation)")
+        st.subheader("Preprocessing Data (Quarterly Aggregation)")
 
         try:
             df['TANGGAL PEMESANAN'] = pd.to_datetime(df['TANGGAL PEMESANAN'], format='%Y-%m-%d', errors='coerce')
@@ -101,7 +101,6 @@ with tabs[1]:
         if len(qty_by_date) > 5: 
             qty_by_date_filtered = qty_by_date[(np.abs(stats.zscore(qty_by_date['QTY'])) < 4)].copy()
 
-        st.subheader("2. Training Model")
         
         LAG = 4 
         
